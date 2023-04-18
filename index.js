@@ -7,7 +7,7 @@ const rl = readline.createInterface({
 });
 
 const secretNumber = Math.floor(Math.random() * 100 + 1);
-
+//creating the funtion to take the input and recursively call till the last step !
 function guessNumber() {
   rl.question("Guess the Number b/w 1 and 100 : ", (answer) => {
     const guess = parseInt(answer);
