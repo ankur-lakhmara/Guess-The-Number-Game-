@@ -25,7 +25,7 @@ function guessNumber() {
                 guessNumber();
                 break;
               case "n":
-                console.log("thanks fo playing the number guessing game !!");
+                console.log("thanks for playing the number guessing game !!");
                 break;
               default:
                 console.log("your entred response is not incorrect ");
